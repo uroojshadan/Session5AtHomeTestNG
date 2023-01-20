@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-03T23:50:19 CST" name="Default suite" finished-at="2023-01-03T23:50:30 CST" duration-ms="11693">
+  <suite name="Default suite" duration-ms="7576" started-at="2023-01-20T17:54:27 CST" finished-at="2023-01-20T17:54:35 CST">
     <groups>
     </groups>
-    <test started-at="2023-01-03T23:50:19 CST" name="Default test" finished-at="2023-01-03T23:50:30 CST" duration-ms="11693">
-      <class name="packageTestNG.AddCustomer_TestNG">
-        <test-method is-config="true" signature="init()[pri:0, instance:packageTestNG.AddCustomer_TestNG@11bd0f3b]" started-at="2023-01-03T23:50:19 CST" name="init" finished-at="2023-01-03T23:50:22 CST" duration-ms="3339" status="PASS">
+    <test name="Default test" duration-ms="7576" started-at="2023-01-20T17:54:27 CST" finished-at="2023-01-20T17:54:35 CST">
+      <class name="packageTestNG.TestNGWithPropertiesFile">
+        <test-method status="PASS" signature="readConfig()[pri:0, instance:packageTestNG.TestNGWithPropertiesFile@3e57cd70]" name="readConfig" is-config="true" duration-ms="5" started-at="2023-01-20T17:54:27 CST" finished-at="2023-01-20T17:54:27 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readConfig -->
+        <test-method status="PASS" signature="init()[pri:0, instance:packageTestNG.TestNGWithPropertiesFile@3e57cd70]" name="init" is-config="true" duration-ms="4515" started-at="2023-01-20T17:54:27 CST" finished-at="2023-01-20T17:54:32 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="addNewContact()[pri:2, instance:packageTestNG.AddCustomer_TestNG@11bd0f3b]" started-at="2023-01-03T23:50:22 CST" name="addNewContact" finished-at="2023-01-03T23:50:30 CST" duration-ms="8152" status="PASS">
+        <test-method status="PASS" signature="loginTestNG()[pri:0, instance:packageTestNG.TestNGWithPropertiesFile@3e57cd70]" name="loginTestNG" duration-ms="2836" started-at="2023-01-20T17:54:32 CST" finished-at="2023-01-20T17:54:34 CST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addNewContact -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:packageTestNG.AddCustomer_TestNG@11bd0f3b]" started-at="2023-01-03T23:50:30 CST" name="tearDown" finished-at="2023-01-03T23:50:30 CST" duration-ms="174" status="PASS">
+        </test-method> <!-- loginTestNG -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:packageTestNG.TestNGWithPropertiesFile@3e57cd70]" name="tearDown" is-config="true" duration-ms="194" started-at="2023-01-20T17:54:34 CST" finished-at="2023-01-20T17:54:35 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- packageTestNG.AddCustomer_TestNG -->
+      </class> <!-- packageTestNG.TestNGWithPropertiesFile -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
