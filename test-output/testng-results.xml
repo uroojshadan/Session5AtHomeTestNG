@@ -2,28 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7576" started-at="2023-01-20T17:54:27 CST" finished-at="2023-01-20T17:54:35 CST">
+  <suite name="Default suite" duration-ms="6385" started-at="2023-01-25T09:28:20 CST" finished-at="2023-01-25T09:28:27 CST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7576" started-at="2023-01-20T17:54:27 CST" finished-at="2023-01-20T17:54:35 CST">
-      <class name="packageTestNG.TestNGWithPropertiesFile">
-        <test-method status="PASS" signature="readConfig()[pri:0, instance:packageTestNG.TestNGWithPropertiesFile@3e57cd70]" name="readConfig" is-config="true" duration-ms="5" started-at="2023-01-20T17:54:27 CST" finished-at="2023-01-20T17:54:27 CST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- readConfig -->
-        <test-method status="PASS" signature="init()[pri:0, instance:packageTestNG.TestNGWithPropertiesFile@3e57cd70]" name="init" is-config="true" duration-ms="4515" started-at="2023-01-20T17:54:27 CST" finished-at="2023-01-20T17:54:32 CST">
+    <test name="Default test" duration-ms="6385" started-at="2023-01-25T09:28:20 CST" finished-at="2023-01-25T09:28:27 CST">
+      <class name="packageTestNG.LearnTestNG">
+        <test-method status="PASS" signature="init()[pri:0, instance:packageTestNG.LearnTestNG@ea1a8d5]" name="init" is-config="true" duration-ms="3373" started-at="2023-01-25T09:28:20 CST" finished-at="2023-01-25T09:28:24 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="loginTestNG()[pri:0, instance:packageTestNG.TestNGWithPropertiesFile@3e57cd70]" name="loginTestNG" duration-ms="2836" started-at="2023-01-20T17:54:32 CST" finished-at="2023-01-20T17:54:34 CST">
+        <test-method status="PASS" signature="loginTestNG()[pri:0, instance:packageTestNG.LearnTestNG@ea1a8d5]" name="loginTestNG" duration-ms="2803" started-at="2023-01-25T09:28:24 CST" finished-at="2023-01-25T09:28:26 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestNG -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:packageTestNG.TestNGWithPropertiesFile@3e57cd70]" name="tearDown" is-config="true" duration-ms="194" started-at="2023-01-20T17:54:34 CST" finished-at="2023-01-20T17:54:35 CST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:packageTestNG.LearnTestNG@ea1a8d5]" name="tearDown" is-config="true" duration-ms="174" started-at="2023-01-25T09:28:26 CST" finished-at="2023-01-25T09:28:27 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- packageTestNG.TestNGWithPropertiesFile -->
+      </class> <!-- packageTestNG.LearnTestNG -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
