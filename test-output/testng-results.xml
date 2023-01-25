@@ -2,24 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6385" started-at="2023-01-25T09:28:20 CST" finished-at="2023-01-25T09:28:27 CST">
+  <suite name="Default suite" duration-ms="37" started-at="2023-01-25T13:57:22 CST" finished-at="2023-01-25T13:57:22 CST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6385" started-at="2023-01-25T09:28:20 CST" finished-at="2023-01-25T09:28:27 CST">
-      <class name="packageTestNG.LearnTestNG">
-        <test-method status="PASS" signature="init()[pri:0, instance:packageTestNG.LearnTestNG@ea1a8d5]" name="init" is-config="true" duration-ms="3373" started-at="2023-01-25T09:28:20 CST" finished-at="2023-01-25T09:28:24 CST">
+    <test name="Default test" duration-ms="37" started-at="2023-01-25T13:57:22 CST" finished-at="2023-01-25T13:57:22 CST">
+      <class name="test.hello">
+        <test-method status="PASS" signature="test()[pri:0, instance:test.hello@1e965684]" name="test" duration-ms="7" started-at="2023-01-25T13:57:22 CST" finished-at="2023-01-25T13:57:22 CST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="loginTestNG()[pri:0, instance:packageTestNG.LearnTestNG@ea1a8d5]" name="loginTestNG" duration-ms="2803" started-at="2023-01-25T09:28:24 CST" finished-at="2023-01-25T09:28:26 CST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTestNG -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:packageTestNG.LearnTestNG@ea1a8d5]" name="tearDown" is-config="true" duration-ms="174" started-at="2023-01-25T09:28:26 CST" finished-at="2023-01-25T09:28:27 CST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- packageTestNG.LearnTestNG -->
+        </test-method> <!-- test -->
+      </class> <!-- test.hello -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
